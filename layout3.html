@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout3</title>
+    <style>
+        .wrapper{
+            height: 405px;
+            width: 980px;
+            background-color: rgba(255,228,154,255);
+            margin: 0 auto;
+            padding: 0;
+            border: 1px solid #000;
+        }
+
+        .header{
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+            border-bottom: 1px solid #000;
+        }
+
+        .menu{
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+            border-bottom: 1px solid #000;
+        }
+
+        .content{
+            display: flex;
+            height: 250px;
+            width: 100%;
+            border-bottom: 1px solid #000;
+        }
+
+        .content .nav{
+            width: 20%;
+            border-right: 1px solid #000;
+        }
+
+        .content .nav p{
+            margin: 0px 6px;
+        }
+
+        .content .null{
+            width: 60%;
+        }
+
+        .content .section{
+            width: 20%;
+            border-left: 1px solid #000;
+        }
+
+        .content .section p{
+            margin: 0px 6px;
+        }
+
+        .footer{
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            header&gt
+        </div>
+
+        <div class="menu">
+            &ltmenu&gt
+        </div>
+
+        <div class="content">
+
+            <div class="nav"><p>&ltnav&gt</p></div>
+            <div class="null"></div>
+            <div class="section"><p>&ltsection&gt</p></div>
+
+        </div>
+
+        <div class="footer">
+            &ltfooter&gt
+        </div>
+    </div>
+</body>
+</html>

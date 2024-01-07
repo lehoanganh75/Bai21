@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout2</title>
+    <style>
+        .wrapper{
+            height: 355px;
+            width: 980px;
+            background-color: rgba(224,239,218,255);
+            margin: 0 auto;
+            padding: 0;
+            border: 1px solid #000;
+        }
+
+        .header{
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+            border-bottom: 1px solid #000;
+        }
+
+        .content{
+            display: flex;
+            height: 250px;
+            width: 100%;
+            border-bottom: 1px solid #000;
+        }
+
+        .content .nav{
+            width: 20%;
+            border-right: 1px solid #000;
+        }
+
+        .content .nav p{
+            margin: 0px 6px;
+        }
+
+        .content .null{
+            width: 60%;
+        }
+
+        .content .section{
+            border-left: 1px solid #000;
+        }
+
+        .content .section p{
+            margin: 0px 6px;
+        }
+
+        .footer{
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            header
+        </div>
+
+        <div class="content">
+
+            <div class="nav"><p>nav</p></div>
+            <div class="null"></div>
+            <div class="section"><p>section</p></div>
+
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
